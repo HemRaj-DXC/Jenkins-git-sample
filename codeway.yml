@@ -2,7 +2,7 @@
 resources:
   repositories:
   - repository: templates
-    type: githubenterprise
+    type: github
     name: codeway/templates
     endpoint: ghe
     # ref: refs/heads/some-branch # Set up a different branch for CodeWay templates. WARNING: It may be harmful  to use non-released pipelines.
