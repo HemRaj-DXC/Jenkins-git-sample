@@ -27,8 +27,8 @@ variables:
 stages:
 - template: templates/golang-v1.yaml@templates 
   parameters:
-    gheUser: $(ghe_user)
-    gheToken: $(ghe_auth_token)
+    gheUser: $(HemRaj-DXC)
+    gheToken: $(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)
     versionMajorMinor: 0.1
     linters: '--enable-all'
     # golangVersion: "1.13.1"
